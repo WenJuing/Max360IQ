@@ -45,3 +45,12 @@ python inference_one_image.py
 
 <img src="https://github.com/WenJuing/Max360IQ/blob/main/model_architecture.png">
 The architecture of our proposed Max360IQ. It mainly consists of three parts: a backbone, a multi-scale feature integration (MSFI) module, and a quality regression (QR) module. Note that the GRUs component in Max360IQ is optional for optimal performance in different scenarios, i.e., non-uniformly and uniformly distorted omnidirectional images
+
+## Citation
+```plaintext
+@article{yan2024max360iq,
+title={Max360IQ: Blind omnidirectional image quality assessment with multi-axis attention},
+author={Yan, Jiebin and Tan, Ziwen and Fang, Yuming and Rao, jiale and Zuo, Yifan},
+year={2024}
+}
+```
