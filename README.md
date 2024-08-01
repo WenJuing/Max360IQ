@@ -13,7 +13,7 @@ python inference_one_image.py
 
 ### Train and Test
 * Prepare the viewport for images by the tool `getImageViewport`
-* The pre-trained weights can be downloaded at the [Google drive](https://drive.google.com/drive/folders/18vCXea59S9JMYSaXBAe82mxa-_6i7FFJ)
+* The pre-trained weights can be downloaded at the <a href="https://drive.google.com/drive/folders/18vCXea59S9JMYSaXBAe82mxa-_6i7FFJ" target="_blank">Google drive</a>
 * Run the file `train.py` and `test.py` for training and testing
 
 ## :dart:Moel Architecture
