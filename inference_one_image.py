@@ -8,10 +8,11 @@ from PIL import Image
 import numpy as np
 
 def main(cfg, args):
-    """# Prediction Score
-    # JUFE range: [1.4099148511886597, 4.076176452636719]
-    # OIQA range: [-0.3777390420436859, 0.101930821314454]
-    # CVIQ range: [-0.1471901461482048, -0.0216653586830943]
+    """
+    # The prediction range when loading different weights
+    # JUFE: [1.4099148511886597, 4.076176452636719]
+    # OIQA: [-0.3777390420436859, 0.101930821314454]
+    # CVIQ: [-0.1471901461482048, -0.0216653586830943]
     """
     print("*****begin test*******************************************************")
     model = create_model(cfg).cuda(args.device)
@@ -52,7 +53,7 @@ if __name__ == '__main__':
     parse = argparse.ArgumentParser()
 
     parse.add_argument('--load_ckpt_path', type=str, default='/home/fang/tzw1/ckpt/paper/oiqa_best_epoch_72.pth')
-    parse.add_argument('--test_img_path', type=str, default='/home/fang/tzw1/ckpt/paper/test_images/img3')
+    parse.add_argument('--test_img_path', type=str, default='/home/fang/tzw1/ckpt/paper/test_images/img1')
     parse.add_argument('--device', type=str, default=torch.device("cuda:0" if torch.cuda.is_available() else "cpu"))
 
     args = parse.parse_args()
