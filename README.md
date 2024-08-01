@@ -1,6 +1,9 @@
 # Max360IQ
 Pytorch implementation of "Max360IQ: Blind Omnidirectional Image Quality Assessment with Multi-axis Attention"
 
+## :palm_tree:Database
+You can download databases at [JUFE](https://github.com/LXLHXL123/JUFE-VRIQA)、OIQA and [CVIQ](https://github.com/sunwei925/CVIQDatabase)
+
 ## :seedling:Usage
 
 ### Inference one image
