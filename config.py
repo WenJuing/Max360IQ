@@ -34,7 +34,7 @@ def max360iq_config(dataset='CVIQ'):
         'gru_layer_dim': 5,                 # the layer dimension of GRU.
         
         # resource setting
-        'vp_path': '/media/fang/Elements/datasets//CVIQ/viewports_8',
+        'vp_path': '/media/fang/Elements/datasets/CVIQ/viewports_8',
         'train_info_csv_path': '/home/fang/tzw1/databases/CVIQ_vp1_train_info.csv',
         'test_info_csv_path': '/home/fang/tzw1/databases/CVIQ_vp1_test_info.csv',
         'save_ckpt_path': '/home/fang/tzw1/ckpt',
