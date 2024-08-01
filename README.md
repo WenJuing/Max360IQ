@@ -6,7 +6,7 @@ You can download databases at [JUFE](https://github.com/LXLHXL123/JUFE-VRIQA)、
 
 ## :seedling:Usage
 
-### Inference one image
+### Inference one Image
 * `use_gru`(True/False): it is recommended to set True when there is a temporal relationship in the viewport sequence and loading the weights trained on JUFE
 * Modify the `load_ckpt_path` to load pre-trained weights
 * Modify the `test_img_path` to inference one image
