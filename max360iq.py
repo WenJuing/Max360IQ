@@ -49,7 +49,6 @@ class Max360IQ(nn.Module):
             xs.append(self.vp_forward(x[:, i, ...]))
             
         if self.use_gru:
-            print("用了")
             x, _ = self.gru(torch.cat(xs, dim=1), None)
         else:
             x = torch.cat(xs, dim=1)
