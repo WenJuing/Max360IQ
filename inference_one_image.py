@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
     parse = argparse.ArgumentParser()
 
-    parse.add_argument('--load_ckpt_path', type=str, default='/home/fang/tzw1/ckpt/paper/oiqa_best_epoch_72.pth')
+    parse.add_argument('--load_ckpt_path', type=str, default='/home/fang/tzw1/ckpt/paper/OIQA.pth')
     parse.add_argument('--test_img_path', type=str, default='/home/fang/tzw1/ckpt/paper/test_images/img1')
     parse.add_argument('--device', type=str, default=torch.device("cuda:0" if torch.cuda.is_available() else "cpu"))
 
