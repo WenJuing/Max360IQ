@@ -1,5 +1,16 @@
-# Max360IQ
-Pytorch implementation of "Max360IQ: Blind Omnidirectional Image Quality Assessment with Multi-axis Attention"
+# *Max360IQ: Blind Omnidirectional Image Quality Assessment with Multi-axis Attention*
+
+Jiebin Yan<sup>1</sup>, Ziwen Tan<sup>1</sup>, Yuming Fang<sup>1</sup>, Jiale Rao<sup>1</sup>, and Yifan Zuo<sup>2</sup>.
+
+<sup>1</sup> Computing and Artificial Intelligence, Jiangxi University of Finance and Economics
+
+## :four_leaf_clover:News:
+
+- **February 26, 2025**: The arXiv version of our paper is released: <a href="https://arxiv.org/abs/2502.19046" target="_blank">https://arxiv.org/abs/2502.19046</a>
+
+- **February 4, 2025**: Our paper is accepted by *Pattern Recognition*!
+
+- **July 31, 2024**: We upload the Max360IQ source code.
 
 ## :palm_tree:Data preparation
 You can download databases at [JUFE](https://github.com/LXLHXL123/JUFE-VRIQA)、OIQA and [CVIQ](https://github.com/sunwei925/CVIQDatabase)
@@ -51,6 +62,8 @@ The architecture of our proposed Max360IQ. It mainly consists of three parts: a 
 @article{yan2024max360iq,
 title={Max360IQ: Blind omnidirectional image quality assessment with multi-axis attention},
 author={Yan, Jiebin and Tan, Ziwen and Fang, Yuming and Rao, jiale and Zuo, Yifan},
-year={2024}
+volume={162},
+pages={111429},
+year={2025},
 }
 ```
