@@ -2,7 +2,7 @@
 
 Jiebin Yan<sup>1</sup>, Ziwen Tan<sup>1</sup>, Yuming Fang<sup>1</sup>, Jiale Rao<sup>1</sup>, and Yifan Zuo<sup>2</sup>.
 
-<sup>1</sup> Computing and Artificial Intelligence, Jiangxi University of Finance and Economics
+<sup>1</sup> School of Computing and Artificial Intelligence, Jiangxi University of Finance and Economics
 
 ## :four_leaf_clover:News:
 
